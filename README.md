@@ -5,3 +5,5 @@ A html file &amp; video to rickroll the person overwhelmingly
 ✔ Flicking tab title
 ✔ Completely offline
 ✔ Completely hidden
+✔ Very funny
+✔ Absolutely brilliant
