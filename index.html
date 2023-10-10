@@ -37,16 +37,9 @@ height:100%;
 
     <script>
 
-	function start(){
-
-	var data = document.getElementById("root")
-	while (true){
 	
-	data.requestFullScreen
-	
-}
 
-}
+
 	
 	let rick = true
 function changeTitle(){
@@ -90,16 +83,11 @@ function change(){
           
             if (userInput == randomNumber) {
 		
-                randomGenContainer.innerHTML = `
-                    <video id = "vid" autoplay>
-                        <source src="resources/win.mp4" type="video/mp4">
-                    </video>
-                `;
-		video = document.getElementById("vid")
-		video.style.width = window.innerWidth
-		video.style.height = window.innerHeight
-		
-              changeScreen()
+              changeTitle();
+
+		setInterval(function(){		
+	window.open("file:///H:/code/random/resources/win.mp4")
+},100)
               
             } else {
                 document.getElementById("wrongfunction").innerText = "Wrong it was " + randomNumber;
